@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Buster</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <header>
+        <img src="" alt="Stress Buster Banner" class="img-thumbnail" />
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header text-uppercase"><a class="navbar-brand navbar-link" href="index.html"><i class="glyphicon glyphicon-scale"></i><span class="text-title text-muted">Stress buster project team</span></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse text-uppercase" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="index.html">home </a></li>
+                        <li role="presentation"><a href="activity.html">activities </a></li>
+                        <li role="presentation"><a href="journal.html">journal </a></li>
+                        <li role="presentation"><a href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--ul class="nav nav-pills categories">
+        <li class="active"><a href="#">Landscape </a></li>
+        <li><a href="#">Macro </a></li>
+        <li><a href="#">Portraits </a></li>
+        <li><a href="#">Locations </a></li>
+        <li><a href="#">Techniques </a></li>
+    </ul-->
+    <div class="container post">
+        <div class="row">
+            <div class="col-md-6 post-title">
+                <h1>Stress Buster in Victoria</h1>
+                <p class="author"><strong>Journal</strong> <span class="text-muted">July 6th 2021 </span></p>
+            </div>
+            <div class="col-md-6 col-md-offset-0 post-body">
+                <p>Welcome to Australian's top leading Stress Therapy.</p>
+                <p>Stress Buster is a licenced and reliable fatique management firm that specializes in releiving stress via a well composed and regulated movement, mindful, diet, natural and meditative exercises. </p>
+                <figure><img class="img-thumbnail" src="assets/img/">
+                    <figcaption>Stress Buster </figcaption>
+                </figure>
+                <p>More contents coming soon...</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5>Stress Buster © <o class="year"></o>. All Rights Reserved.</h5></footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var year = new Date();
+            year = year.getFullYear();
+            $('.year').html(year); //append this year to <o> class attribute (year) </o>
+        });
+    </script>
+</body>
+
+</html>
