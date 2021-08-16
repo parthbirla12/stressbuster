@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Jquery library needs to be placed above any reference to Boostrap js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class= "container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"  style="font-size: 50px;">Stress Buster</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded=    "false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+             <li class="nav-item active">
+             <a class="nav-link" href="index.html"><span class=" fa fa-home"></span> Home <span class="sr-only">(current)</span></a>
+            </li>
+       </ul>
+
+      
+        
+                          
+       <ul class = "navbar-nav mr-auto" style="margin-left: 200px;">
+
+            
+            <li class="nav-item ">
+             <a class="nav-link" href="#">Activties <span class="sr-only">(current)</span></a>
+            
+
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#" >Journal </a>
+            </li>
+                
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#Modal2"><span class="fa fa-sign-in"></span> Log-in </a>
+            </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="#" data-toggle="modal" data-target="#Modal1">Register </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+       </ul>
+      </div>
+    </nav>
+    <div>
+      <center><img src="img/yoga2.jpg" width="100%" height="400px"></center>
+     </div>
+       
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Sign Up For A Free Consultation</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputFirstName" class="col-sm-2 control-label">FirstName</label>
+            <div class="col-sm-10">
+              <input type="name" class="form-control" id="inputFirstName" placeholder="First Name *">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="LastName" class="col-sm-2 control-label">LastName</label>
+            <div class="col-sm-10">
+              <input type="LastName" class="form-control" id="LastNAme" placeholder="Last Name *">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputemail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email *">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Contact" class="col-sm-2 control-label">Contact</label>
+            <div class="col-sm-10">
+              <input type="Contact" class="form-control" id="contact" placeholder="Phone Number *">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">&nbsp;&nbsp;Remember me
+                </label>
+                </div>
+              </div>
+
+      </div>
+      <div class="form-group">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+</form>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Modal 2-->
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Sign In</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputEmail4" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email4" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword4" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password4" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">&nbsp;&nbsp;Stay Signed In
+                </label>
+                </div>
+              </div>
+
+      </div>
+      <div class="form-group">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign IN</button>
+      
+      </div>
+
+
+    </div>
+</form>
+
+  </div>
+</div>
+</div>
+</div>
+    
+    <div class="col-md-10 col-sm-8 col-12" style="margin-top: 5%">
+
+      <h1>MOVEMENT</h1>
+      
+<p>From the moment we are born, we use and move our bodies in different ways. Every movement has a function, a reason for being done in particular way. A movement uses certain muscles, fascia, ligaments etc. move in a particular way for a specific purpose. Think about lifting a cup of herbal tea to the mouth to drink, or crouching down to tie your shoelaces.</p>
+<p>
+
+Times of physical inactivity can contribute to poor muscle use. Injuries can mean that our bodies try to protect itself, so the injured muscle becomes weaker whilst other muscle areas gain in strength to support the injured area. Over time, injuries, inactivity and moving the body repeatedly in the same way, can lead to the development of some muscles that are stronger (or weaker) than others. If you think about your writing hand – the flexibility, dexterity and strength of that hand and arm is usually greater than your non-writing (non-dominant) side, through repeated movement.
+</p>
+Functional movement is a way of exercising that brings overall health and stability to your body. In this article we focus on larger functional movements of the muscles. However, functional movement can be investigated on smaller levels including at the cellular level.
+<p>
+The range of functional movement will depend on the person making the movement. For example, a professional footballer will need a wider and different range of movement to function, than someone with a desk based job.
+  </p>    </p>
+ <h2>
+    Week 1 Challenges: </h2>
+<p>->Get up earlier than usual do some simple movements using Steve’s video & handout sheet as a guide.</p>
+<p>->Note where you feel tension in the body. Breathe into the tension, journal how this felt.</p>
+<p>->Listen to the podcasts and watch the habits video.</p>
+    </div>
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Submit a query ! 
+          <span class="required"></span>
+            <span class= "fa fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="enter valid details">
+          </span>  
+        </button>
+      </h2>
+    </div>
+
+    <div  id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+       <form id="form">
+   <div class="form-group">
+    <label for="exampleInputname">FirstName</label>
+    <input type="inputFirstName"
+     class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your first Name">
+  </div>  
+   <div class="form-group">
+    <label for="exampleInputLName">LastName</label>
+    <input type="inputLAstName" class="form-control" id="exampleInputLName" aria-describedby="LnameHelp" placeholder="Enter your last Name">
+  </div>     
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="button" id="submit1" class="btn btn-primary" name="submitf">SUBMIT</button>
+</form>
+<div type="text" style ="display:none;" class="alert alert-success mt-3" id="Thank" >
+  <span class="fa fa-thumbs-up" style="font-size: 70px"></span>Thank you! Your Request/Enquiry has been received.
+</div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+    
+    <div class="embed-responsive embed-responsive-21by9" style="margin-top:20%">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etSowWscnJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+      
+  
+  <div>
+      <footer>
+               <div class="bg-dark text-light">   
+               <center><h2>Follow us on -</h2></center>     &nbsp;   &nbsp; &nbsp; &nbsp;     
+                <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-3x social" style="margin-left:40%;"></i></a>
+                <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:realestateproperty@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social" ></i></a> 
+          
+              </div>
+    </footer>
+    </div>
+  </div>
+</body>
+
+  <script>
+   $('[name="submitf"]').click(function(){
+      $('#form').hide(); 
+      $('#Thank').show();
+     
+     
+    })
+$(function(){
+    $('[data-toggle="tooltip"]').tooltip('show')
+  })
+  </script>
+  </html>
