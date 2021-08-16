@@ -1,0 +1,15 @@
+.flat-list li {
+	display: inline;
+}
+
+footer {
+	margin-top: 20px;
+}
+.container2{
+	background: red;
+}
+.carousel-caption{
+	font-style: italic;
+	font-weight: bold;
+	color: gold;
+}
