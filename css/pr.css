@@ -1,0 +1,40 @@
+.list-container{
+    width: 80%;
+    margin: 30px auto;
+    background: rgb(240, 240, 240);
+    padding-bottom: 20px;
+}
+.list-container h3{
+    font-size: 22px;
+    background: #029eb7;
+    padding: 10px 5px;
+    color: #fff;
+}
+.list-container h4{
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+    color: #029eb7;
+}
+.list-container ul{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 50px; */
+    list-style: none;
+}
+.list-container ul li a{
+    width: 100px;
+    height: 100px;
+}
+.list-container ul li a img{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+.list-container ul li a span{
+    font-size: 16px;
+}
+.headings{
+    padding:  20px 20px 20px 20px;
+    font-size: 15px;
+}
